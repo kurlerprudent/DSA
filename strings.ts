@@ -15,8 +15,23 @@
 // console.log(num1)
 // console.log(mySelf)
 
-let fruit = "Apple"
+// let fruit = "Apple"
 
-for(let i = 0; i < fruit.length; i++){
-    console.log(fruit[i])
-}
+// for(let i = 0; i < fruit.length; i++){
+//     console.log(fruit[i].toLocaleUpperCase)
+// }
+
+// for(let f of fruit){
+//     console.log(f)
+// }
+
+let animal: string = "Reversal";
+
+let animal2: string[] = animal.split("",3)
+console.log(animal2)
+
+let animal3: string[] = animal2.reverse()
+console.log(animal3)
+
+let animal4: string = animal3.join("")
+console.log(animal4)

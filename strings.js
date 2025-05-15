@@ -9,7 +9,17 @@
 // console.log(combinedResult)
 // console.log(num1)
 // console.log(mySelf)
-var fruit = "Apple";
-for (var i = 0; i < fruit.length; i++) {
-    console.log(fruit[i]);
-}
+// let fruit = "Apple"
+// for(let i = 0; i < fruit.length; i++){
+//     console.log(fruit[i].toLocaleUpperCase)
+// }
+// for(let f of fruit){
+//     console.log(f)
+// }
+var animal = "Reversal";
+var animal2 = animal.split("", 3);
+console.log(animal2);
+var animal3 = animal2.reverse();
+console.log(animal3);
+var animal4 = animal3.join("");
+console.log(animal4);
