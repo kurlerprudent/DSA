@@ -25,13 +25,14 @@
 //     console.log(f)
 // }
 
-let animal: string = "Reversal";
+// let animal: string = "Reversal";
 
-let animal2: string[] = animal.split("",3)
-console.log(animal2)
+// let animal2: string[] = animal.split("",3)
+// console.log(animal2)
 
-let animal3: string[] = animal2.reverse()
-console.log(animal3)
+// let animal3: string[] = animal2.reverse()
+// console.log(animal3)
 
-let animal4: string = animal3.join("")
-console.log(animal4)
+// let animal4: string = animal3.join("")
+// console.log(animal4)
+
